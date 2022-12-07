@@ -1,0 +1,66 @@
+                   BOOTSTRAP ASSIGNMENT
+
+1. What are atvantages of BOOTSTRAP?
+->  Bootstrap is simple to use and anyone with a basic understanding of    HTML and CSS can get started.
+Features that adapt to phones, tablets, and desktops: Bootstrap's responsive CSS adapts to phones, tablets, and desktops.
+A mobile-first strategy: Mobile-first styles are built into the Bootstrap framework. 
+
+2. What is a Bootstrap Container, and how does it work?
+
+    A bootstrap container is a handy class that generates a central region on the page where we can put our site content. The bootstrap .container has the advantage of being responsive and containing all of our other HTML code. Containers are used to pad the content within them, and there are two types of containers:
+
+The .container class creates a fixed-width container that is responsive.
+The .container-fluid class creates a full-width container that spans the entire viewport width.
+
+3. What are the default Bootstrap text settings?
+
+The default font size in Bootstrap 4 is 16px, with a line-height of 1.5.
+
+The default font family is "Helvetica Neue," which includes Helvetica, Arial, and other sans-serif fonts.
+
+Margin-top: 0 and margin-bottom: 1rem are also set on all <p> elements (16px by default).
+
+4. What do you know about the Bootstrap Grid System?
+->
+   The Bootstrap Grid System is a mobile-first, responsive grid system that scales up to 12 columns as the device or viewport size grows. Predefined classes for quick layout options and powerful mix-ins for creating successful semantic layouts are included in the system.
+
+     There are five classes in the Bootstrap 4 grid system:
+
+    .col- for extra small devices, whose screen width is less than 576px.
+   .col-sm- small devices, whose screen width is equal to or greater than 576px.
+   .col-md- medium devices, whose screen width is equal to or greater than 768px.
+   .col-lg- large devices, whose screen width is equal to or greater than 992px.
+   .col-xl- extra large devices, whose screen width is equal to or greater than 1200px.
+   The classes listed above can be combined to build layouts that are more dynamic and adaptable.
+
+  7. What is a Button Group, and what is the class for a basic Button      Group?
+  ->
+    Multiple buttons can be placed together on a single line using button groups. You can use this to group objects together, such as alignment buttons.
+
+    The .btn-group class is used for basic button groups. You can use the class .btn to wrap a set of buttons in .btn-group.
+
+9. How can you use Bootstrap to make thumbnails?
+ ->  
+   To make thumbnails with Bootstrap, go through the steps below:
+
+    Wrap an image in an <a> tag with the class .thumbnail. It will add a grey border and four pixels of padding. An animated light will now outline the image when it has hovered over.
+
+10. In Bootstrap 4, what is flexbox?
+  ->  
+    Flexbox is a layout module for flexible boxes. Without using float  or positioning, you can quickly create a flexible layout design with flexbox.
+
+15. How can one create an alert in Bootstrap?
+ ->   
+    Create a wrapper <div> and add a class of .alert and one of the contextual classes to create a basic alert (e.g., .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light or .alert-dark). 
+
+What is a bootstrap card and how would you create one?       
+
+   In Bootstrap 4, a card is a bordered box with padding surrounding its content. It has options for headers, footers, content, and colors, among other things.
+
+   <div class="card">
+   <div class="card-header">Header</div>
+    <div class="card-body">Body</div>
+    <div class="card-footer">Footer</div>
+   </div>
+
+
